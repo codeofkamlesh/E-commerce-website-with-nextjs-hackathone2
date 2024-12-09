@@ -94,7 +94,7 @@ export default function ProductGrid() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-left mb-12 text-black">
+        <h2 className="text-3xl font-bold text-left mb-12 text-black text-center">
           Our Products
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -124,12 +124,12 @@ export default function ProductGrid() {
                 )}
               </div>
               <div className="p-4">
-                <h3 className="text-purple-600 font-medium mb-2">
+                <h3 className="text-black font-medium mb-2">
                   {product.name}
                 </h3>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-purple-600 font-bold">
+                    <span className="text-black font-bold">
                       ${product.price}
                     </span>
                     {product.originalPrice && (

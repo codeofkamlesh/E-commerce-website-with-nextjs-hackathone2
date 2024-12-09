@@ -48,8 +48,8 @@ export default function HotCategories() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-purple-600">
-          Hot Categories
+        <h2 className="text-3xl font-bold text-center mb-12 text-black">
+          
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Featured Product */}

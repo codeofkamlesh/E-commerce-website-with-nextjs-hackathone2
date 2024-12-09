@@ -18,6 +18,7 @@ export function Footer() {
   return (
     <footer className="bg-white p-12 border-t">
       <div className="container px-4">
+      <div className="flex ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
            
@@ -53,7 +54,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">CATEGORY</h3>
+            <h3 className="font-semibold mb-4 text-gray-500">CATEGORY</h3>
             <ul className="space-y-2">
               {["Sofa", "Armchair", "Wing Chair", "Desk Chair", "wooden Chair", "Park Bench"].map(
                 (item) => (
@@ -67,7 +68,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">SUPPORT</h3>
+            <h3 className="font-semibold mb-4 text-gray-500">SUPPORT</h3>
             <ul className="space-y-2">
               {[
                 "Help & Support",
@@ -83,18 +84,25 @@ export function Footer() {
               ))}
             </ul>
           </div>
+
+
           <div className="space-y-4">
-            <h3 className="font-semibold">NEWSLETTER</h3>
+            <h3 className="font-semibold text-gray-500">NEWSLETTER</h3>
             <form className="flex gap-2">
               <Input type="email" placeholder="Your email" />
-              <Button type="submit">Subscribe</Button>
+              <Button type="submit" className="bg-teal-600">Subscribe</Button>
             </form>
             <p className="text-sm text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim.
             </p>
           </div>
         </div>
-        <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        </div>
+
+
+        <div>
+
+        <div className="w-[1200px] border-t-2  flex flex-col md:flex-row justify-between pt-4 items-center gap-4">
           <p className="text-sm text-gray-500">© 2024 - Blogy - Designed & Develop by Zokrsoft</p>
           <div className="flex items-center gap-2">
             <div className="w-12 h-8 bg-gray-100 rounded flex items-center justify-center">
@@ -105,6 +113,7 @@ export function Footer() {
             </div>
             <div className="w-12 h-8 bg-gray-100 rounded flex items-center justify-center">
               <span className="text-xs text-gray-600">Master</span>
+              </div>
             </div>
           </div>
         </div>
