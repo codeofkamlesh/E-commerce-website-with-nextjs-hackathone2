@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image"
+import Link from "next/link"
 
 interface Product {
   id: string
@@ -42,14 +42,16 @@ export default function HotCategories() {
         image: '/img4.png',
         href: '/products/gray-upholstered-chair'
       }
-
   ]
 
   return (
     <section className="py-16 bg-white">
+      <div>
+        
+      </div>
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-black">
-          
+        <h2 className="text-3xl font-bold  mb-12 text-black">
+          Hot Categories
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Featured Product */}
@@ -57,7 +59,7 @@ export default function HotCategories() {
             <Link
               key={product.id}
               href={product.href}
-              className="relative aspect-square overflow-hidden rounded-lg group"
+              className="relative aspect-[4/3] overflow-hidden rounded-lg group"
             >
               <Image
                 src={product.image}
@@ -76,13 +78,14 @@ export default function HotCategories() {
               <Link
                 key={product.id}
                 href={product.href}
-                className="relative aspect-square overflow-hidden rounded-lg group"
+                className="relative aspect-[4/3] overflow-hidden rounded-lg group"
               >
                 <Image
                   src={product.image}
                   alt={product.name}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  priority
                 />
                 <div className="absolute inset-0 bg-black/20 transition-opacity group-hover:opacity-0" />
               </Link>
@@ -93,4 +96,3 @@ export default function HotCategories() {
     </section>
   )
 }
-

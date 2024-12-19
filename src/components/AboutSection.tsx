@@ -17,7 +17,7 @@ const AboutSection = () => {
             <FaTruck className="text-[#007580] mb-2" />
             Next day as standard
           </h3>
-          <p className="text-[16px] font-normal text-[#007580]  mt-4">
+          <p className="text-[16px] font-normal text-[#007580] mt-4">
             Order before 3pm and get your order the next day as standard
           </p>
         </div>

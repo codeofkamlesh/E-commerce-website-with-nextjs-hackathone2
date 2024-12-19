@@ -42,30 +42,31 @@ export default function TopCategories() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {categories.map((category) => (
-            <Link
-              key={category.id}
-              href={category.href}
-              className="group relative overflow-hidden rounded-lg aspect-[4/3]"
-            >
-              <Image
-                src={category.image}
-                alt={category.name}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black h-24 top-[220px]">
-                <div className="absolute bottom-0 left-0 p-6 text-white">
-                  <h3 className="text-xl font-semibold mb-2">{category.name}</h3>
-                  <p className="text-sm text-gray-200">
-                    {category.productCount.toLocaleString()} Products
-                  </p>
-                </div>
-              </div>
-            </Link>
+           <Link
+           key={category.id}
+           href={category.href}
+           className="group relative overflow-hidden rounded-lg aspect-[4/3] transition-all duration-300 ease-in-out"
+         >
+           {/* Image Section */}
+           <Image
+             src={category.image}
+             alt={category.name}
+             fill
+             className="object-cover transition-transform duration-300 group-hover:scale-105"
+           />
+         
+           {/* Description Section */}
+           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4">
+             <h3 className="text-xl font-semibold text-white">{category.name}</h3>
+             <p className="text-sm text-gray-200">
+               {category.productCount.toLocaleString()} Products
+             </p>
+           </div>
+         </Link>
+         
           ))}
         </div>
       </div>
     </section>
   )
 }
-

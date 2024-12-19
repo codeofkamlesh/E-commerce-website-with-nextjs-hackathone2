@@ -1,33 +1,35 @@
-import Image from "next/image"
-import { ArrowRight } from "lucide-react"
+import type { NextPage } from 'next';
+import Image from "next/image";
 
-export default function Hero() {
+const Header: NextPage = () => {
   return (
-    <div className="container mx-auto px-4 py-16 md:py-24 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="space-y-6">
-          <p className="text-sm tracking-widest uppercase text-gray-600">
-            Welcome to Chairy
-          </p>
-          <h1 className="text-4xl md:text-6xl font-bold text-[#1E1B39] leading-tight">
-            Best Furniture Collection For Your Interior.
+    <div className="w-full min-h-screen relative text-center overflow-hidden bg-[#f0f2f3] rounded-b-[24px] md:rounded-b-[48px] px-4 py-8 md:py-12 lg:py-16">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between">
+        <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
+          <div className="text-[#f05c52] text-sm md:text-base tracking-[0.12em] uppercase mb-2 md:mb-4 mx-auto lg:mx-0">Welcome to chairy</div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-[#272343] font-bold capitalize leading-tight mb-4 md:mb-6">
+            <span className="block">Best Furniture</span>
+            <span className="block">Collection for your</span>
+            <span className="block">interior.</span>
           </h1>
-          <button className="group flex items-center gap-2 bg-[#00B4B4] text-white px-6 py-3 rounded-md hover:bg-[#009999] transition-colors">
-            Shop Now
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          <button className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#029fae] text-white text-base md:text-lg font-semibold transition-colors hover:bg-[#027e8b] mx-auto lg:mx-0">
+            <span>Shop Now</span>
+            <Image className="w-5 h-5 md:w-6 md:h-6" width={24} height={24} alt="" src="/Rightarrow.png" />
           </button>
         </div>
-        <div className="relative h-[500px]">
-          <Image
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <Image 
+            className="w-3/4 md:w-2/3 lg:w-full max-w-md xl:max-w-lg object-cover" 
+            width={434} 
+            height={584} 
+            alt="Furniture chair" 
             src="/chair.png"
-            alt="Modern accent chair"
-            fill
-            className="object-contain"
-            priority
           />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Header;
 

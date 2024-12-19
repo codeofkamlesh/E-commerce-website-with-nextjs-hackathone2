@@ -22,7 +22,7 @@ const AboutHero = () => {
       </div>
       <div className="w-full md:w-[619px] h-auto md:h-[478px] mt-6 md:mt-0 md:ml-6">
         <Image
-          src="/Image Block.png"
+          src="/Image Block.jpg"
           alt="Comforty Image"
           width={619}
           height={478}

@@ -1,5 +1,5 @@
-import ProductCrad from "@/components/ProductsCards"
-import Newsletter from "@/components/Newsletter"
+import ProductCrad from "../../components/ProductsCards";
+import Newsletter from "../../components/Newsletter";
 const page = () => {
   return (
     <div>

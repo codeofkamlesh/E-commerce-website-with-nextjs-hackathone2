@@ -1,14 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
-  }
-  
+
   .containor {
     width: 100%; /* Use full width of the viewport */
     background:white; /* Optional background for visual clarity */
