@@ -61,13 +61,13 @@ const Navigation = () => {
 
       {/* Main Header */}
       <div className="w-full bg-[#f0f2f3] flex items-center justify-between p-4 md:p-[20px_10%] box-border text-2xl text-[#272343]">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 bg-cover">
           <Image
             className="w-[40px] h-[40px] overflow-hidden flex-shrink-0"
             width={40}
             height={40}
             alt=""
-            src="/Logoicon.png"
+            src="/Logo Icon.jpg"
           />
           <div className="relative leading-[120%] font-medium">
             <Link href="/">Comforty</Link>

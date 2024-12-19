@@ -7,7 +7,7 @@ const ProductCarousel: NextPage = () => {
   const products = [
     { src: "/pillowchair.png", alt: "Chair 1", name: "Classic Chair", price: "$89" },
     { src: "/Image.png", alt: "Chair 2", name: "Elegant Chair", price: "$99" },
-    { src: "/Img7.png", alt: "Chair 3", name: "Luxury Chair", price: "$120" },
+    { src: "/steel.jpg", alt: "Chair 3", name: "Luxury Chair", price: "$120" },
     { src: "/img3.png", alt: "Chair 4", name: "Cozy Chair", price: "$75" },
     { src: "/img5.png", alt: "Chair 5", name: "Modern Chair", price: "$110" },
   ];
