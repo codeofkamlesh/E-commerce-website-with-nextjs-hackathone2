@@ -5,7 +5,7 @@ import { FaClock } from "react-icons/fa";
 import { GrTrophy } from "react-icons/gr";
 import { BsCheckCircle } from "react-icons/bs";
 import { MdSupportAgent } from "react-icons/md";
-import Styles from "../../Styles/ContactUs.module.css";
+import Styles from "../../styles/ContactUs.module.css";
 import "../../app/globals.css";
 
 
