@@ -1,4 +1,4 @@
-import { Clock, Hammer, PiggyBank, Recycle } from "lucide-react"
+import { Clock, Hammer, PiggyBank, Recycle } from "lucide-react";
 
 export function FeatureSection() {
   const features = [
