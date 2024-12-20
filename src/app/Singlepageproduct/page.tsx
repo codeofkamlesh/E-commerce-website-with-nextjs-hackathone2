@@ -1,11 +1,12 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 import Image from "next/image";
 import { BsCartDash } from "react-icons/bs";
 
 const ProductCarousel: NextPage = () => {
   // Array of image details
   const products = [
-    { src: "/pillowchair.png", alt: "Chair 1", name: "Classic Chair", price: "$89" },
+    {
+      src: "/pillowchair.png", alt: "Chair 1", name: "Classic Chair", price: "$89", },
     { src: "/Image.png", alt: "Chair 2", name: "Elegant Chair", price: "$99" },
     { src: "/steel.jpg", alt: "Chair 3", name: "Luxury Chair", price: "$120" },
     { src: "/img3.png", alt: "Chair 4", name: "Cozy Chair", price: "$75" },
@@ -17,7 +18,7 @@ const ProductCarousel: NextPage = () => {
       {/* Featured Product Section */}
       <div className="flex flex-col lg:flex-row items-center gap-8 mb-16">
         <div className="w-full lg:w-1/2">
-          <Image 
+          <Image
             src="/img2.png"
             alt="CHAIR"
             width={600}
@@ -33,10 +34,12 @@ const ProductCarousel: NextPage = () => {
             $20.00 USD
           </div>
           <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipiscing
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur
+            adipiscing
           </p>
           <button className="bg-teal-600 text-white px-6 py-2 rounded-lg flex items-center hover:bg-teal-700 transition-colors">
-            <BsCartDash className="mr-2"/>
+            <BsCartDash className="mr-2" />
             Add To Cart
           </button>
         </div>
@@ -52,7 +55,7 @@ const ProductCarousel: NextPage = () => {
             View all
           </button>
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {products.map((product, index) => (
             <div key={index} className="flex flex-col">

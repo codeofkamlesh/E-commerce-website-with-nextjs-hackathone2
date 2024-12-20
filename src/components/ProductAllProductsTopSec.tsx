@@ -3,14 +3,54 @@ import Image from "next/image";
 
 const FeaturedProducts: NextPage = () => {
   const products = [
-    { image: "/img1.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img2.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img3.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img4.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img5.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img6.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img7.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
-    { image: "/img8.png", name: "Library Stool Chair", price: 20, originalPrice: 39 },
+    {
+      image: "/img1.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img2.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img3.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img4.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img5.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img6.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img7.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
+    {
+      image: "/img8.png",
+      name: "Library Stool Chair",
+      price: 20,
+      originalPrice: 39,
+    },
   ];
 
   return (
@@ -23,7 +63,10 @@ const FeaturedProducts: NextPage = () => {
       {/* Products Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-10 gap-y-32">
         {products.map((product, index) => (
-          <div key={index} className="relative w-full h-auto bg-white rounded-lg shadow-lg p-4">
+          <div
+            key={index}
+            className="relative w-full h-auto bg-white rounded-lg shadow-lg p-4"
+          >
             <Image
               className="rounded-md"
               width={312}
@@ -32,10 +75,16 @@ const FeaturedProducts: NextPage = () => {
               src={product.image}
             />
             <div className="flex flex-col mt-4">
-              <div className="text-lg font-medium capitalize">{product.name}</div>
+              <div className="text-lg font-medium capitalize">
+                {product.name}
+              </div>
               <div className="flex items-center gap-2 mt-2">
-                <div className="text-xl font-bold text-gray-800">${product.price}</div>
-                <div className="text-sm line-through text-gray-400">${product.originalPrice}</div>
+                <div className="text-xl font-bold text-gray-800">
+                  ${product.price}
+                </div>
+                <div className="text-sm line-through text-gray-400">
+                  ${product.originalPrice}
+                </div>
               </div>
             </div>
 
@@ -53,7 +102,9 @@ const FeaturedProducts: NextPage = () => {
                 height={24}
                 alt="Add to Cart"
                 src="/addCart.png"
-                className={`${index !== 0 ? "filter invert hover:filter-none" : ""}`} // Change icon to white on hover
+                className={`${
+                  index !== 0 ? "filter invert hover:filter-none" : ""
+                }`} // Change icon to white on hover
               />
             </button>
 

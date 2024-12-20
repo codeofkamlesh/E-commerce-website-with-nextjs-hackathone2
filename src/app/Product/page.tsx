@@ -1,13 +1,12 @@
-import ProductCrad from "../../components/ProductsCards";
-import Newsletter from "../../components/Newsletter";
+import ProductCrad from "../../components/ProductAllProductsTopSec";
+import Newsletter from "../../components/ProductNewsletterSection";
 const page = () => {
   return (
     <div>
-
-        <ProductCrad/>
-        <Newsletter/>
+      <ProductCrad />
+      <Newsletter />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

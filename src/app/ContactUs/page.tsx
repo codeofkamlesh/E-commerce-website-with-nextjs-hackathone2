@@ -8,7 +8,6 @@ import { MdSupportAgent } from "react-icons/md";
 import Styles from "../../styles/ContactUs.module.css";
 import "../../app/globals.css";
 
-
 const ContactUs = () => {
   return (
     <div className={Styles.containor}>
@@ -47,9 +46,7 @@ const ContactUs = () => {
               </i>
               <div className={Styles.two}>
                 <h2>Working Hours</h2>
-                <p>
-                  Monday-Friday: 9:00 - 22:00 Saturday-Sunday: 9:00 - 21:00
-                </p>
+                <p>Monday-Friday: 9:00 - 22:00 Saturday-Sunday: 9:00 - 21:00</p>
               </div>
             </div>
           </div>

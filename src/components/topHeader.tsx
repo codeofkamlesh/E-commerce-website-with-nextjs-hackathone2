@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useState } from "react";
 import { FaCartShopping } from "react-icons/fa6";
@@ -111,7 +111,7 @@ const Navigation = () => {
             <Link href="/">Home</Link>
           </div>
           <div className="relative leading-[110%] capitalize font-medium">
-            <Link href="/Cart">Shop</Link>
+            <Link href="/shop">Shop</Link>
           </div>
           <div className="relative leading-[110%] capitalize font-medium">
             <Link href="/Product">Product</Link>

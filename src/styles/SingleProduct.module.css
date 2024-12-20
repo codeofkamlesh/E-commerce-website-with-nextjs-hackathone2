@@ -1,768 +1,767 @@
 .check1Icon {
-    width: 16px;
-    position: relative;
-    height: 16px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .freeShippingOn {
-    position: relative;
-    line-height: 110%;
-    text-transform: capitalize;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
 }
 .shipping {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
-    opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  opacity: 0.7;
 }
 .groupIcon {
-    width: 7px;
-    position: relative;
-    height: 3.5px;
+  width: 7px;
+  position: relative;
+  height: 3.5px;
 }
 .eng {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
 }
 .usd {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 6px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
 }
 .faqs {
-    position: relative;
-    line-height: 130%;
+  position: relative;
+  line-height: 130%;
 }
 .alertCircle1Icon {
-    width: 16px;
-    position: relative;
-    height: 16px;
-    overflow: hidden;
-    flex-shrink: 0;
-    opacity: 0.7;
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.7;
 }
 .needHelp {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
 }
 .link {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    opacity: 0.7;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  opacity: 0.7;
+  text-align: center;
 }
 .top {
-    width: 1920px;
-    background-color: #272343;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 300px;
-    box-sizing: border-box;
+  width: 1920px;
+  background-color: #272343;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 300px;
+  box-sizing: border-box;
 }
 .logoIcon {
-    width: 40px;
-    position: relative;
-    height: 40px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 40px;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .comforty {
-    position: relative;
-    line-height: 120%;
-    font-weight: 500;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
 }
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
 }
 .buy2Icon {
-    width: 22px;
-    position: relative;
-    height: 22px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 22px;
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .noChild {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 50%;
-    background-color: #007580;
-    width: 20px;
-    height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: #007580;
+  width: 20px;
+  height: 20px;
 }
 .div {
-    position: absolute;
-    top: 5px;
-    left: 7px;
-    line-height: 100%;
-    text-transform: capitalize;
-    font-weight: 500;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 .no {
-    width: 20px;
-    position: relative;
-    height: 20px;
-    font-size: 10px;
-    color: #fff;
-    font-family: 'DM Sans';
+  width: 20px;
+  position: relative;
+  height: 20px;
+  font-size: 10px;
+  color: #fff;
+  font-family: "DM Sans";
 }
 .cart {
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 11px 16px;
-    gap: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 16px;
+  gap: 12px;
 }
 .userLinks {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: center;
-    font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 12px;
 }
 .middle {
-    width: 1920px;
-    background-color: #f0f2f3;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 300px;
-    box-sizing: border-box;
-    font-size: 26px;
-    color: #272343;
+  width: 1920px;
+  background-color: #f0f2f3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 300px;
+  box-sizing: border-box;
+  font-size: 26px;
+  color: #272343;
 }
 .home {
-    position: relative;
-    line-height: 110%;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #007580;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #007580;
 }
 .shop {
-    position: relative;
-    line-height: 110%;
-    text-transform: capitalize;
-    font-weight: 500;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 .links1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
 }
 .div1 {
-    position: relative;
-    line-height: 110%;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #272343;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #272343;
 }
 .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
 }
 .links {
-    width: 1920px;
-    box-shadow: 0px 1px 0px #e1e3e5;
-    background-color: #fff;
-    height: 74px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 300px;
-    box-sizing: border-box;
-    font-size: 14px;
-    color: #636270;
+  width: 1920px;
+  box-shadow: 0px 1px 0px #e1e3e5;
+  background-color: #fff;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 300px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #636270;
 }
 .navigation {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #fff;
-    height: 203px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .footerChild {
-    position: absolute;
-    height: 82.06%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 17.94%;
-    left: 0%;
-    box-shadow: 0px 1px 0px #e1e3e5 inset;
-    background-color: #fff;
+  position: absolute;
+  height: 82.06%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 17.94%;
+  left: 0%;
+  box-shadow: 0px 1px 0px #e1e3e5 inset;
+  background-color: #fff;
 }
 .category {
-    position: relative;
-    letter-spacing: 0.06em;
-    line-height: 110%;
-    text-transform: uppercase;
-    font-weight: 500;
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .sofa {
-    position: relative;
-    line-height: 110%;
+  position: relative;
+  line-height: 110%;
 }
 .deskChair {
-    position: relative;
-    text-decoration: underline;
-    line-height: 110%;
-    color: #007580;
+  position: relative;
+  text-decoration: underline;
+  line-height: 110%;
+  color: #007580;
 }
 .sofaParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 12px;
-    font-size: 16px;
-    color: #272343;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 16px;
+  color: #272343;
 }
 .categoryParent {
-    position: absolute;
-    height: 48.56%;
-    width: 5.47%;
-    top: 19.14%;
-    right: 55.63%;
-    bottom: 32.3%;
-    left: 38.91%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
+  position: absolute;
+  height: 48.56%;
+  width: 5.47%;
+  top: 19.14%;
+  right: 55.63%;
+  bottom: 32.3%;
+  left: 38.91%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .supportParent {
-    position: absolute;
-    height: 34.21%;
-    width: 8.13%;
-    top: 19.14%;
-    right: 41.28%;
-    bottom: 46.65%;
-    left: 50.6%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
+  position: absolute;
+  height: 34.21%;
+  width: 8.13%;
+  top: 19.14%;
+  right: 41.28%;
+  bottom: 46.65%;
+  left: 50.6%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .newsletter1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    font-size: 14px;
-    letter-spacing: 0.06em;
-    line-height: 110%;
-    text-transform: uppercase;
-    font-weight: 500;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .subscribe {
-    position: relative;
-    line-height: 110%;
-    text-transform: capitalize;
-    font-weight: 600;
+  position: relative;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 .button {
-    position: absolute;
-    top: calc(50% - 36px);
-    left: calc(50% + 85px);
-    border-radius: 8px;
-    background-color: #029fae;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 24px;
-    text-align: center;
-    color: #fff;
+  position: absolute;
+  top: calc(50% - 36px);
+  left: calc(50% + 85px);
+  border-radius: 8px;
+  background-color: #029fae;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  text-align: center;
+  color: #fff;
 }
 .fieldChild {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    border-radius: 8px;
-    background-color: #fff;
-    border: 1px solid #e1e3e5;
-    box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e1e3e5;
+  box-sizing: border-box;
 }
 .yourEmail {
-    position: absolute;
-    top: 32.61%;
-    left: 7.02%;
-    line-height: 100%;
+  position: absolute;
+  top: 32.61%;
+  left: 7.02%;
+  line-height: 100%;
 }
 .field {
-    position: absolute;
-    height: 32.39%;
-    width: 67.22%;
-    top: 24.65%;
-    right: 32.78%;
-    bottom: 42.96%;
-    left: 0%;
+  position: absolute;
+  height: 32.39%;
+  width: 67.22%;
+  top: 24.65%;
+  right: 32.78%;
+  bottom: 42.96%;
+  left: 0%;
 }
 .loremIpsumDolor {
-    position: absolute;
-    width: 100%;
-    top: 67.61%;
-    left: 0%;
-    font-size: 15px;
-    line-height: 150%;
-    color: #272343;
-    display: inline-block;
-    opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  top: 67.61%;
+  left: 0%;
+  font-size: 15px;
+  line-height: 150%;
+  color: #272343;
+  display: inline-block;
+  opacity: 0.6;
 }
 .newsletter {
-    position: absolute;
-    height: 33.97%;
-    width: 22.08%;
-    top: 19.14%;
-    right: 15.63%;
-    bottom: 46.89%;
-    left: 62.29%;
-    font-size: 16px;
+  position: absolute;
+  height: 33.97%;
+  width: 22.08%;
+  top: 19.14%;
+  right: 15.63%;
+  bottom: 46.89%;
+  left: 62.29%;
+  font-size: 16px;
 }
 .comforty2 {
-    position: relative;
-    line-height: 120%;
-    font-weight: 600;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
 }
 .vivamusTristiqueOdio {
-    margin: 0;
+  margin: 0;
 }
 .vivamusTristiqueOdioContainer {
-    width: 350px;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    display: inline-block;
-    opacity: 0.6;
+  width: 350px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  opacity: 0.6;
 }
 .socialLinksChild {
-    width: 38px;
-    position: relative;
-    height: 38px;
+  width: 38px;
+  position: relative;
+  height: 38px;
 }
 .socialLinks {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
 }
 .chairy {
-    position: absolute;
-    top: 80px;
-    left: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
-    font-size: 26px;
-    color: #272343;
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 26px;
+  color: #272343;
 }
 .zakirsoft {
-    color: #272343;
+  color: #272343;
 }
 .blogyDesignedContainer {
-    position: relative;
+  position: relative;
 }
 .logosChild {
-    width: 36px;
-    position: relative;
-    height: 22.3px;
+  width: 36px;
+  position: relative;
+  height: 22.3px;
 }
 .logosItem {
-    width: 56px;
-    position: relative;
-    height: 14.9px;
+  width: 56px;
+  position: relative;
+  height: 14.9px;
 }
 .vectorIcon {
-    width: 50px;
-    position: relative;
-    height: 27px;
+  width: 50px;
+  position: relative;
+  height: 27px;
 }
 .unionIcon {
-    width: 55px;
-    position: relative;
-    height: 17.8px;
+  width: 55px;
+  position: relative;
+  height: 17.8px;
 }
 .logos {
-    position: absolute;
-    top: calc(50% - 13.5px);
-    left: calc(50% - 113.5px);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    opacity: 0.5;
+  position: absolute;
+  top: calc(50% - 13.5px);
+  left: calc(50% - 113.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0.5;
 }
 .groupChild {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    background-color: #000;
-    mix-blend-mode: color;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #000;
+  mix-blend-mode: color;
 }
 .logosParent {
-    width: 227px;
-    position: relative;
-    height: 27px;
+  width: 227px;
+  position: relative;
+  height: 27px;
 }
 .blogyDesignedDevelopByParent {
-    position: absolute;
-    top: 343px;
-    left: 0px;
-    box-shadow: 0px 1px 0px #e1e3e5 inset;
-    background-color: #fff;
-    width: 1920px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 300px;
-    box-sizing: border-box;
-    font-family: Poppins;
+  position: absolute;
+  top: 343px;
+  left: 0px;
+  box-shadow: 0px 1px 0px #e1e3e5 inset;
+  background-color: #fff;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 300px;
+  box-sizing: border-box;
+  font-family: Poppins;
 }
 .footer {
-    position: absolute;
-    top: 1615px;
-    left: 0px;
-    width: 1920px;
-    height: 418px;
-    overflow: hidden;
-    font-size: 14px;
-    color: #9a9caa;
+  position: absolute;
+  top: 1615px;
+  left: 0px;
+  width: 1920px;
+  height: 418px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #9a9caa;
 }
 .featuredProducts {
-    position: absolute;
-    top: 0px;
-    left: 2px;
-    font-size: 28px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #000;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000;
 }
 .groupItem {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 263px;
-    height: 263px;
-    object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 263px;
+  height: 263px;
+  object-fit: cover;
 }
 .imageIcon {
-    position: absolute;
-    height: 88.24%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 11.76%;
-    left: 0%;
-    border-radius: 6px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  height: 88.24%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 11.76%;
+  left: 0%;
+  border-radius: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .imageIcon1 {
-    position: absolute;
-    height: 85.95%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 14.05%;
-    left: 0%;
-    border-radius: 10px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  height: 85.95%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 14.05%;
+  left: 0%;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .libraryStoolChair {
-    position: absolute;
-    top: 285px;
-    left: 0px;
-    line-height: 130%;
-    text-transform: capitalize;
+  position: absolute;
+  top: 285px;
+  left: 0px;
+  line-height: 130%;
+  text-transform: capitalize;
 }
 .b {
-    position: absolute;
-    top: 285px;
-    left: 235px;
-    font-size: 14px;
-    color: #000;
+  position: absolute;
+  top: 285px;
+  left: 235px;
+  font-size: 14px;
+  color: #000;
 }
 .rectangleParent {
-    position: absolute;
-    top: 103px;
-    left: 0px;
-    width: 270px;
-    height: 306px;
+  position: absolute;
+  top: 103px;
+  left: 0px;
+  width: 270px;
+  height: 306px;
 }
 .rectangleGroup {
-    position: absolute;
-    top: 103px;
-    left: 296px;
-    width: 263px;
-    height: 306px;
+  position: absolute;
+  top: 103px;
+  left: 296px;
+  width: 263px;
+  height: 306px;
 }
 .rectangleContainer {
-    position: absolute;
-    top: 103px;
-    left: 592px;
-    width: 263px;
-    height: 306px;
+  position: absolute;
+  top: 103px;
+  left: 592px;
+  width: 263px;
+  height: 306px;
 }
 .imageIcon2 {
-    position: absolute;
-    height: 88.24%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 11.76%;
-    left: 0%;
-    border-radius: 10px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  height: 88.24%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 11.76%;
+  left: 0%;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .groupDiv {
-    position: absolute;
-    top: 103px;
-    left: 888px;
-    width: 263px;
-    height: 306px;
+  position: absolute;
+  top: 103px;
+  left: 888px;
+  width: 263px;
+  height: 306px;
 }
 .imageIcon3 {
-    position: absolute;
-    height: 85.95%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 14.05%;
-    left: 0%;
-    border-radius: 6px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  height: 85.95%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 14.05%;
+  left: 0%;
+  border-radius: 6px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .rectangleParent1 {
-    position: absolute;
-    top: 103px;
-    left: 1184px;
-    width: 263px;
-    height: 306px;
+  position: absolute;
+  top: 103px;
+  left: 1184px;
+  width: 263px;
+  height: 306px;
 }
 .viewAll {
-    position: absolute;
-    top: 0px;
-    left: 2px;
+  position: absolute;
+  top: 0px;
+  left: 2px;
 }
 .lineDiv {
-    position: absolute;
-    top: 31px;
-    left: 0px;
-    border-top: 2px solid #000;
-    box-sizing: border-box;
-    width: 77px;
-    height: 2px;
+  position: absolute;
+  top: 31px;
+  left: 0px;
+  border-top: 2px solid #000;
+  box-sizing: border-box;
+  width: 77px;
+  height: 2px;
 }
 .viewAllParent {
-    position: absolute;
-    top: 3px;
-    left: 1351px;
-    width: 75px;
-    height: 31px;
-    font-size: 18px;
-    color: #000;
+  position: absolute;
+  top: 3px;
+  left: 1351px;
+  width: 75px;
+  height: 31px;
+  font-size: 18px;
+  color: #000;
 }
 .productCarousel {
-    position: absolute;
-    top: 1065px;
-    left: 236px;
-    width: 1447px;
-    height: 409px;
-    font-size: 16px;
-    color: #272343;
+  position: absolute;
+  top: 1065px;
+  left: 236px;
+  width: 1447px;
+  height: 409px;
+  font-size: 16px;
+  color: #272343;
 }
 .singleProductPageChild {
-    position: absolute;
-    top: 581px;
-    left: 1046px;
-    background-color: #d9d9d9;
-    width: 521px;
-    height: 1px;
+  position: absolute;
+  top: 581px;
+  left: 1046px;
+  background-color: #d9d9d9;
+  width: 521px;
+  height: 1px;
 }
 .imageIcon4 {
-    position: absolute;
-    height: 29.86%;
-    width: 35.16%;
-    top: 16.48%;
-    right: 51.3%;
-    bottom: 53.66%;
-    left: 13.54%;
-    border-radius: 10px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  height: 29.86%;
+  width: 35.16%;
+  top: 16.48%;
+  right: 51.3%;
+  bottom: 53.66%;
+  left: 13.54%;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .buy2Icon2 {
-    width: 29px;
-    position: relative;
-    height: 29px;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 29px;
+  position: relative;
+  height: 29px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .button1 {
-    position: absolute;
-    top: calc(50% - 265.5px);
-    left: calc(50% + 86px);
-    border-radius: 8px;
-    background-color: #029fae;
-    width: 212px;
-    height: 63px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 24px;
-    box-sizing: border-box;
-    gap: 9px;
-    text-align: center;
-    font-size: 20px;
+  position: absolute;
+  top: calc(50% - 265.5px);
+  left: calc(50% + 86px);
+  border-radius: 8px;
+  background-color: #029fae;
+  width: 212px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  box-sizing: border-box;
+  gap: 9px;
+  text-align: center;
+  font-size: 20px;
 }
 .loremIpsumDolor1 {
-    position: absolute;
-    height: 4.97%;
-    width: 28.28%;
-    top: 30.4%;
-    left: 54.48%;
-    font-size: 22px;
-    line-height: 150%;
-    color: #272343;
-    display: inline-block;
-    opacity: 0.6;
+  position: absolute;
+  height: 4.97%;
+  width: 28.28%;
+  top: 30.4%;
+  left: 54.48%;
+  font-size: 22px;
+  line-height: 150%;
+  color: #272343;
+  display: inline-block;
+  opacity: 0.6;
 }
 .rectangleDiv {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 100px;
-    background-color: #029fae;
-    width: 144px;
-    height: 44px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100px;
+  background-color: #029fae;
+  width: 144px;
+  height: 44px;
 }
 .rectangleWrapper {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 144px;
-    height: 44px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 144px;
+  height: 44px;
 }
 .singleProductPageInner {
-    position: absolute;
-    top: 499px;
-    left: 1044px;
-    width: 144px;
-    height: 44px;
+  position: absolute;
+  top: 499px;
+  left: 1044px;
+  width: 144px;
+  height: 44px;
 }
 .libraryStoolChair5 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    line-height: 110%;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 541px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 541px;
 }
 .libraryStoolChairWrapper {
-    position: absolute;
-    top: 335px;
-    left: 1044px;
-    width: 541px;
-    height: 132px;
-    font-size: 60px;
-    color: #272343;
+  position: absolute;
+  top: 335px;
+  left: 1044px;
+  width: 541px;
+  height: 132px;
+  font-size: 60px;
+  color: #272343;
 }
 .usd4 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    line-height: 110%;
-    text-transform: capitalize;
-    font-weight: 600;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 110%;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 .usdWrapper {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 118px;
-    height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 118px;
+  height: 22px;
 }
 .singleProductPageInner1 {
-    position: absolute;
-    top: 511px;
-    left: 1057px;
-    width: 118px;
-    height: 22px;
-    font-size: 20px;
+  position: absolute;
+  top: 511px;
+  left: 1057px;
+  width: 118px;
+  height: 22px;
+  font-size: 20px;
 }
 .singleProductPage {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 2033px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 13px;
-    color: #fff;
-    font-family: Inter;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 2033px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+  font-family: Inter;
 }
-

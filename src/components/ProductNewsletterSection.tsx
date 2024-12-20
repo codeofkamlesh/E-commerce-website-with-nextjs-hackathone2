@@ -29,12 +29,48 @@ const NewsletterInstagram: NextPage = () => {
           Follow Products and Discounts on Instagram
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
-          <Image className="w-full max-w-[186px] h-auto rounded-lg object-cover" width={186} height={186} alt="Instagram 1" src="/img6.png" />
-          <Image className="w-full max-w-[186px] h-auto rounded-lg object-cover" width={186} height={186} alt="Instagram 2" src="/img5.png" />
-          <Image className="w-full max-w-[200px] h-auto rounded-lg object-cover" width={200} height={200} alt="Instagram 3" src="/img2.png" />
-          <Image className="w-full max-w-[200px] h-auto rounded-lg object-cover" width={200} height={200} alt="Instagram 4" src="/img1.png" />
-          <Image className="w-full max-w-[200px] h-auto rounded-lg object-cover" width={200} height={200} alt="Instagram 5" src="/img3.png" />
-          <Image className="w-full max-w-[196px] h-auto rounded-lg object-cover" width={196} height={196} alt="Instagram 6" src="/img7.png" />
+          <Image
+            className="w-full max-w-[186px] h-auto rounded-lg object-cover"
+            width={186}
+            height={186}
+            alt="Instagram 1"
+            src="/img6.png"
+          />
+          <Image
+            className="w-full max-w-[186px] h-auto rounded-lg object-cover"
+            width={186}
+            height={186}
+            alt="Instagram 2"
+            src="/img5.png"
+          />
+          <Image
+            className="w-full max-w-[200px] h-auto rounded-lg object-cover"
+            width={200}
+            height={200}
+            alt="Instagram 3"
+            src="/img2.png"
+          />
+          <Image
+            className="w-full max-w-[200px] h-auto rounded-lg object-cover"
+            width={200}
+            height={200}
+            alt="Instagram 4"
+            src="/img1.png"
+          />
+          <Image
+            className="w-full max-w-[200px] h-auto rounded-lg object-cover"
+            width={200}
+            height={200}
+            alt="Instagram 5"
+            src="/img3.png"
+          />
+          <Image
+            className="w-full max-w-[196px] h-auto rounded-lg object-cover"
+            width={196}
+            height={196}
+            alt="Instagram 6"
+            src="/img7.png"
+          />
         </div>
       </div>
     </div>

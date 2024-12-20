@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200 px-4  sm:px-12 md:px-28">
       <div className="mx-auto py-12">
-        <div className="flex flex-wrap justify-between gap-4">
+        <div className="flex flex-wrap justify-between gap-2">
           {/* Brand Section */}
           <div className="flex flex-col w-full  md:w-[320px] items-start">
             <div className="flex items-center gap-2">
@@ -25,7 +25,7 @@ export default function Footer() {
                 className="ml-3"
               />
               <span className="text-[#272343] text-[26px] font-bold">
-              <a href="/">Comforty</a>
+                <a href="/">Comforty</a>
               </span>
             </div>
             <p className="mt-4 text-gray-500">

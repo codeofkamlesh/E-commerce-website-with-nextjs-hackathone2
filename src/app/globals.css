@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 /* Global font and overflow styles */
-html, body {
+html,
+body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden; /* Prevent horizontal scrollbar */
 }

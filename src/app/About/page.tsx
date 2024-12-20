@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 import AboutHero from "../../components/AboutHero";
-import AboutSection from "../../components/AboutSection";
+import AboutSection from "../../components/AboutMiddleSection";
 import AboutPopularProduct from "../../components/Aboutpopularproduct";
 
 const Page: React.FC = () => {
@@ -10,7 +10,7 @@ const Page: React.FC = () => {
       <AboutSection />
       <AboutPopularProduct />
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

@@ -12,7 +12,14 @@ type CartItemProps = {
   price: number;
 };
 
-const CartItem: React.FC<CartItemProps> = ({ imageSrc, title, description, size, quantity, price }) => (
+const CartItem: React.FC<CartItemProps> = ({
+  imageSrc,
+  title,
+  description,
+  size,
+  quantity,
+  price,
+}) => (
   <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 border-b border-gray-200">
     <Image
       src={imageSrc}
@@ -24,7 +31,9 @@ const CartItem: React.FC<CartItemProps> = ({ imageSrc, title, description, size,
     <div className="flex-grow space-y-2 text-center sm:text-left">
       <h3 className="font-semibold">{title}</h3>
       <p className="text-sm text-gray-600">{description}</p>
-      <p className="text-sm">Size: {size} &nbsp; Quantity: {quantity}</p>
+      <p className="text-sm">
+        Size: {size} &nbsp; Quantity: {quantity}
+      </p>
     </div>
     <div className="flex sm:flex-col justify-between items-center sm:items-end space-x-4 sm:space-x-0 sm:space-y-2">
       <div className="flex space-x-2">
@@ -45,7 +54,9 @@ const Cart = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-2/3 bg-white rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold p-4 border-b border-gray-200">Bag</h2>
+          <h2 className="text-2xl font-bold p-4 border-b border-gray-200">
+            Bag
+          </h2>
           <CartItem
             imageSrc="/orchair.jpg"
             title="Library Stool Chair"
